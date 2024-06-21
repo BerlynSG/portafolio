@@ -1,0 +1,59 @@
+.pres {
+    margin-top: 6rem;
+}
+
+.bg-blur {
+    backdrop-filter: blur(15px);
+}
+
+.bg-blur-2 {
+    backdrop-filter: blur(5px);
+}
+
+.habilidad-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.habilidad-list > p {
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (max-width: 767px)
+{
+    .line-pos {
+        height: 3px;
+        width: 100%;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .aprender-item {
+        flex: 0 0 auto;
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .line-pos {
+        width: 3px;
+        height: auto;
+        padding: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .aprender-item {
+        flex: 0 0 auto;
+        width: 33%;
+        padding: 1rem;
+    }
+}
